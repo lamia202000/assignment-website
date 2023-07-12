@@ -164,6 +164,63 @@ header {
 }
 
 
+/* products */
+
+.products {
+    display: flex;
+    gap: 30px;
+    margin-top: 240px;
+    margin-left: 500px;
+
+}
+
+.product-image1 {
+
+    height: 300px;
+    width: 300px;
+}
+
+.product-image2 {
+
+    height: 300px;
+    width: 300px;
+}
+
+.product-image3 {
+
+    height: 300px;
+    width: 300px;
+
+}
+
+
+
+
+
+
+
+.price {
+    display: flex;
+    gap: 220px;
+    margin-left: 600px;
+}
+
+.price-tag1 {
+    /* padding-left: 250px; */
+    /* padding-right: 0px; */
+    /* margin-right: 0px; */
+}
+
+.price-tag2 {}
+
+.price-tag3 {}
+
+
+
+
+
+
+
 /* service style*/
 .services-container {
     display: flex;
@@ -297,7 +354,8 @@ header {
     line-height: 30px;
 }
 
-.align-btn ,input {
+.align-btn,
+input {
     display: block;
     padding: 15px 30px;
     border-radius: 5px;
@@ -308,9 +366,63 @@ header {
     display: inline-block;
     border: 0px;
     padding-left: 500px;
-    }
-  
+}
+
+
+/* sign-in */
+
+
+.message-img{
     
+    height: 300px;
+    width: 300px;
+}
+
+.sign-in{
+    display: flex;
+    height: 400px;
+    width: 1200px;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    margin-left: 160px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    padding-left: 350px;
+}
+
+
+.sign-in-text{
+    padding-left: 130px;
+    padding-bottom: 0px;
+}
+
+.sign-in-para{
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+.sign-in-box{
+    padding-left: 50px;
+}
+
+
+.ending-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sign-in-button-input{
+    display: inline-flex;
+    gap: 50px;
+    padding-left: 40px;
+}
+
+
+
+
 
 
 
